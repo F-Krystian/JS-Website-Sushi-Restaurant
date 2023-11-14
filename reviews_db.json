@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alice Johnson",
+    "img": "../images/reviews/user-1.png",
+    "score": 4,
+    "review": "Delicious sushi, fresh ingredients, and friendly staff. A must-visit!"
+  },
+  {
+    "name": "John Smith",
+    "img": "../images/reviews/user-2.png",
+    "score": 5,
+    "review": "Absolutely amazing! The presentation and taste are beyond compare."
+  },
+  {
+    "name": "Emily Chen",
+    "img": "./images/reviews/user-4.png",
+    "score": 3,
+    "review": "Good sushi, but the service was a bit slow during peak hours."
+  },
+  {
+    "name": "David Miller",
+    "img": "../images/reviews/user-3.png",
+    "score": 4,
+    "review": "Great variety of rolls, and the atmosphere is very relaxing."
+  },
+  {
+    "name": "Sophia Lee",
+    "img": "../images/reviews/user-1.png",
+    "score": 5,
+    "review": "Incredible flavors and creative combinations. A sushi lover's dream!"
+  },
+  {
+    "name": "Michael Wilson",
+    "img": "../images/reviews/user-2.png",
+    "score": 2,
+    "review": "Disappointed with the quality of fish. Expected better."
+  }
+]

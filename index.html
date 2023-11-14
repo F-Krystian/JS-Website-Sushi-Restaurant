@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+<!-- Header Section-->
+    <section class="header-wrapper">
+      <!-- Header -->
+      <header class="header-main section-wrapper--large ">
+        <div class="header-content section-wrapper--medium section-wrapper--r">
+          <!-- Logo -->
+          <a href="#" class="logo__link"><div class="logo-link__img">Logo</div></a>
+          <!-- Navigation -->
+          <nav class="navigation-main">
+            <ul class="navigation-main__list">
+              <li class="navigation-main__item"><a href="#" class="navigation-main__link">Home</a></li>
+              <li class="navigation-main__item"><a href="menu.html" class="navigation-main__link">Menu</a></li>
+              <li class="navigation-main__item"><a href="gallery.html" class="navigation-main__link">Gallery</a></li>
+              <li class="navigation-main__item"><a href="contact.html" class="navigation-main__link">Contact</a></li>
+            </ul>
+          </nav>
+            <!-- Order online -->
+          <a href="contact.html" class="btn--basic btn__order-online">Order online</a>          
+        </div>
+      </header>
+      <!-- About section -->
+      <section class="about section-wrapper--large section-wrapper--c">
+        <div class="about-content__top section-wrapper--medium">
+          <h1 class="about__h header_h1--basic">About us</h1>
+          <p class="about__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae repellat nisi numquam porro, et qui eaque blanditiis vel beatae ullam.</p>    
+          <button class="about__btn btn--basic"><a href="menu.html">View Menu</a></button>
+        </div>
+      </section>
+    </section>
+
+<!-- Section break -->
+    <section class="about-content__bottom section-wrapper--large">
+      <div class="section-wrapper--r about-content__bottom__content section-wrapper--medium">
+        <article class="about-content__box">
+          <div class="about-content__box__icon about-content__box__content">
+            <img src="./images/icons/location.png" alt="icon-location" class="about-content__box__img" />
+          </div>
+          <div class="about-content__box__text about-content__box__content">
+            <h3 class="about-content__box_h">Our location</h3>
+            <p class="about-content__box_p">Company Name</p>
+            <div class="about-content__address">
+              <p class="about-content__box_p">Address Lorem ipsum</p> 
+              <p class="about-content__box_p">Lorem, ipsum dolor.</p>
+              <p class="about-content__box_p">Lorem ipsum dolor sit.</p> 
+            </div>
+            
+
+          </div>
+        </article>
+        <article class="about-content__box">
+          <div class="about-content__box__icon about-content__box__content">
+            <img src="./images/icons/clock.png" alt="icon-clock" class="about-content__box__img" />
+          </div>
+          <div class="about-content__box__text about-content__box__content">
+            <h3 class="about-content__box_h">Opening hours</h3>
+            <div class="about-content__box-time">
+              <div class="about-content__box-times">
+                <div class="about-content__box-hours"><span class="box-hours__day">Mon</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Tue</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Wed</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Thu</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Fri</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Sat</span><span class="box-hours__hour">9:00 - 21:00</span></div>
+                <div class="about-content__box-hours hidden"><span class="box-hours__day">Sun</span><span class="box-hours__hour">13:00 - 20:00</span></div>              
+              </div>
+              <button class="material-symbols-outlined about-content__time-btn">arrow_drop_down</button>
+            </div>
+          </div>
+        </article>
+        <article class="about-content__box">
+          <div class="about-content__box__icon about-content__box__content">
+            <img src="./images/icons/delivery.png" alt="icon-delivery" class="about-content__box__img" />
+          </div>
+          <div class="about-content__box__text about-content__box__content">
+            <h3 class="about-content__box_h">Delivery</h3>
+            <p class="about-content__box_p">Lorem ipsum dolor sit.
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p> 
+          </div>
+        </article>
+        <article class="about-content__box">
+          <div class="about-content__box__icon about-content__box__content">
+            <img src="./images/icons/shrimp.png" alt="icon-food" class="about-content__box__img" />
+          </div>
+          <div class="about-content__box__text about-content__box__content">
+            <h3 class="about-content__box_h">Always fresh</h3>
+            <p class="about-content__box_p">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur.</p> 
+          </div>
+        </article>
+      </div>
+    </section>
+<!-- Section Menu -->
+  <section class="menu-wrapper section-wrapper--large">
+    <div class="menu-content section-wrapper--medium section-wrapper--c">
+      <h1 class="menu__h header_h1--basic">Our Menu</h1>
+      
+      <div class="menu__container">
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/sushi-set-1.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/sushi-set-2.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/sushi-set-3.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/sushi-set-4.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/tempura-set-1.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/tempura-set-2.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/udon-set-1.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+        <article class="menu__container__item">
+          <div class="menu__container__item-text">
+            <div class="menu__container__header">
+              <h3 class="menu__container__item__title menu__container__item_h">Item Name</h3>              
+              <span class="menu__container__item__price menu__container__item_h"> $ 15.00</span>
+            </div>
+
+            <p class="menu__container__item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptatum!</p>
+          </div>
+          <div class="menu__container__item-img">
+            <img src="./images/menu/udon-set-2.jpg" alt="" srcset="" class="menu__container__item-img__img" />
+          </div>
+        </article>
+      </div>
+      <button class="menu__btn btn--basic"><a href="menu.html">View menu</a></button>
+    </div>
+  </section>
+<!-- Section Gallery -->
+  <section class="gallery section-wrapper--large">
+    <div class="gallery__content section-wrapper--medium section-wrapper--c">
+      <h1 class="gallery__h header_h1--basic">Gallery</h1>
+      <div class="gallery__container">
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-1.jpg" alt="gallery image 1" class="gallery-item__img"/>
+        </div>
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-2.jpg" alt="gallery image 2" class="gallery-item__img"/>
+        </div>
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-3.jpg" alt="gallery image 3" class="gallery-item__img"/>
+        </div>
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-4.jpg" alt="gallery image 4" class="gallery-item__img"/>
+        </div>
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-5.jpg" alt="gallery image 5" class="gallery-item__img"/>
+        </div>
+        <div class="gallery-item">
+          <img src="./images/gallery/gallery-6.jpg" alt="gallery image 7" class="gallery-item__img"/>
+        </div>
+      </div>
+      <button class="gallery__btn btn--basic"><a href="gallery.html">View More</a></button>
+    </div>
+  </section>
+
+<!-- Section Reviews -->
+  <section class="reviews section-wrapper--large">
+
+    <div class="reviews__content section-wrapper--medium section-wrapper--c">
+      <h1 class="reviews__h header_h1--basic">reviews</h1>   
+      <div class="reviews__wrapper">
+        <button class="reviews__btn reviews__btn--prev material-symbols-outlined">navigate_before</button>
+
+          <div class="reviews__carousel">
+            <div class="reviews__wrapper__boxes">
+            <!-- <article class="reviews__wrapper__item">
+              <h3 class="review__title">Name</h3>
+              <div class="review__score">*****</div>
+              <p class="review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, non nostrum similique voluptates, ipsam at sint cupiditate quia est maiores perferendis dicta totam. Perspiciatis amet consectetur porro harum veniam at quisquam soluta id. Dolorum dicta ullam doloribus sunt architecto doloremque excepturi, at voluptatum in nemo. Adipisci corrupti quaerat aut et!</p>
+            </article> -->
+            </div>
+          </div>
+
+
+        <button class="reviews__btn reviews__btn--next material-symbols-outlined">navigate_next</button>
+      </div>             
+    </div>
+  </section>
+<!-- Section Contact -->
+  <section class="contact section-wrapper--large">
+    <div class="contact__content section-wrapper--medium section-wrapper--c">
+      <section class="contact__content-header contact__content-item">
+        <h1 class="gallery__h header_h1--basic">Contact us</h1>
+      </section>
+      <section class="contact__content-info contact__content-item">
+        <div class="contact__content-box contact__content-box__logo">
+          <a href="#" class="logo__link"><div class="logo-link__img logo-link__img--large">Logo</div></a>
+        </div>
+
+        <div class="contact__content-box contact__content-box__address">
+          <h3 class="contact__box-header">Contact us</h3>
+          <div class="contact__content-box__address__p">
+            <p class="contact__box__p">Adress line 1</p>
+            <p class="contact__box__p">Telephone 111-111-111</p>
+            <p class="contact__box__p">Email: sushi@sushi.com</p>
+          </div>
+        </div>
+
+        <div class="contact__content-box contact__content-box__sm">
+          <h3 class="contact__box-header">Follow us</h3>
+          <div class="contact__sm-icons">
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/facebook.png" alt="facebook icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/instagram.png" alt="instagram icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/twitter.png" alt="twitter icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content-box">
+          <a href="contact.html" class="btn--basic btn__order-online btn__order-online--contact">Order online</a>  
+        </div>
+      </section>
+    </div>
+    <section class="contact__content-map contact__content-item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7132.699152928902!2d-122.44804944894584!3d37.757263956564806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1692022706109!5m2!1sen!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map__container"></iframe>
+    </section>
+  </section>
+  
+    <footer class="main-footer section-wrapper--large">
+      <div class="footer__content section-wrapper--medium section-wrapper--r">
+        <div class="footer__info footer__block">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__item-link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__item-link">Terms of Service</a></li>
+          </ul>
+        </div>        
+        <div class="footer__creation footer__block">Copyright © X 2023, Created by X</div>
+      </div>
+    </footer>
+  </div>
+
+  <section class="gallery-modal">
+    <button class="gallery__btn-close">
+      <span class="material-symbols-outlined gallery__btn-close__btn">
+        close
+      </span>
+    </button>
+    <div class="modal-gallery__image">
+      <img src="./images/gallery/gallery-3.jpg" alt="gallery image 3" class="modal-gallery__image-large"/>
+    </div>
+    <div class="gallery_nav">
+      <button class="gallery__btn-nav gallery__btn-prev  material-symbols-outlined">navigate_before</button>
+      <button class="gallery__btn-nav gallery__btn-next  material-symbols-outlined">navigate_next</button>      
+    </div>
+
+  </section>
+  <script type="module" src="app.js" defer></script>  
+</body>
+</html>

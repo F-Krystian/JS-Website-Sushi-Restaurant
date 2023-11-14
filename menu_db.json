@@ -1,0 +1,79 @@
+[
+    {
+      "category": "sushi",
+      "name": "Regular Sushi 1",
+      "imgURL": "../images/menu/sushi-regular-1.jpg",
+      "description": "A classic assortment of fresh sushi.",
+      "price": 12.99
+    },
+    {
+      "category": "sushi",
+      "name": "Regular Sushi 2",
+      "imgURL": "../images/menu/sushi-regular-2.jpg",
+      "description": "Delight in a variety of traditional sushi rolls.",
+      "price": 14.99
+    },
+    {
+      "category": "sushi set",
+      "name": "Sushi Set 1",
+      "imgURL": "../images/menu/sushi-set-1.jpg",
+      "description": "Our chef's selection of premium sushi, perfect for sharing.",
+      "price": 24.99
+    },
+    {
+      "category": "sushi set",
+      "name": "Sushi Set 2",
+      "imgURL": "../images/menu/sushi-set-2.jpg",
+      "description": "Experience the flavors of Japan with our sushi platter.",
+      "price": 29.99
+    },
+    {
+      "category": "sushi set",
+      "name": "Sushi Set 3",
+      "imgURL": "../images/menu/sushi-set-3.jpg",
+      "description": "A delectable assortment of sushi and sashimi.",
+      "price": 32.99
+    },
+    {
+      "category": "sushi set",
+      "name": "Sushi Set 4",
+      "imgURL": "../images/menu/sushi-set-4.jpg",
+      "description": "Savor the elegance of our premium sushi set.",
+      "price": 39.99
+    },
+    {
+      "category": "sushi set",
+      "name": "Sushi Set 5",
+      "imgURL": "../images/menu/sushi-set-5.jpg",
+      "description": "A feast of sushi delights for the true connoisseur.",
+      "price": 49.99
+    },
+    {
+      "category": "tempura",
+      "name": "Tempura Set 1",
+      "imgURL": "../images/menu/tempura-set-1.jpg",
+      "description": "Crispy tempura served with dipping sauce and rice.",
+      "price": 16.99
+    },
+    {
+      "category": "tempura",
+      "name": "Tempura Set 2",
+      "imgURL": "../images/menu/tempura-set-2.jpg",
+      "description": "Enjoy our tempura selection with a side of miso soup.",
+      "price": 18.99
+    },
+    {
+      "category": "udon",
+      "name": "Udon Set 1",
+      "imgURL": "../images/menu/udon-set-1.jpg",
+      "description": "A comforting bowl of udon noodles with tempura.",
+      "price": 15.99
+    },
+    {
+      "category": "udon",
+      "name": "Udon Set 2",
+      "imgURL": "../images/menu/udon-set-2.jpg",
+      "description": "Udon noodles in a savory broth, served with sushi rolls.",
+      "price": 19.99
+    }
+  ]

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-contact.css">
+</head>
+<body>
+  <div class="wrapper">
+<!-- Header Section-->
+    <section class="header-wrapper">
+      <!-- Header -->
+      <header class="header-main section-wrapper--large ">
+        <div class="header-content section-wrapper--medium section-wrapper--r">
+          <!-- Logo -->
+          <a href="index.html" class="logo__link"><div class="logo-link__img">Logo</div></a>
+          <!-- Navigation -->
+          <nav class="navigation-main">
+            <ul class="navigation-main__list">
+              <li class="navigation-main__item"><a href="index.html" class="navigation-main__link">Home</a></li>
+              <li class="navigation-main__item"><a href="menu.html" class="navigation-main__link">Menu</a></li>
+              <li class="navigation-main__item"><a href="gallery.html" class="navigation-main__link">Gallery</a></li>
+              <li class="navigation-main__item"><a href="contact.html" class="navigation-main__link">Contact</a></li>
+            </ul>
+          </nav>
+            <!-- Order online -->
+          <a href="contact.html" class="btn--basic btn__order-online">Order online</a>          
+        </div>
+      </header>
+      <!-- About section -->
+      <section class="about section-wrapper--large section-wrapper--c">
+        <div class="about-content__top section-wrapper--medium">
+          <h1 class="about__h header_h1--basic">Contact</h1>
+          <p class="about__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae repellat nisi numquam porro, et qui eaque blanditiis vel beatae ullam.</p>         </div>
+      </section>
+    </section>
+
+
+
+<!-- Section Contact -->
+  <section class="contact section-wrapper--large">
+    <div class="contact__content section-wrapper--medium section-wrapper--c">
+      <section class="contact__content-header contact__content-item">
+        <h1 class="gallery__h header_h1--basic">Contact us</h1>
+      </section>
+      <section class="contact__content-info contact__content-item">
+        <div class="contact__content-box contact__content-box__logo">
+          <a href="#" class="logo__link"><div class="logo-link__img logo-link__img--large">Logo</div></a>
+        </div>
+
+        <div class="contact__content-box contact__content-box__address">
+          <h3 class="contact__box-header">Contact us</h3>
+          <div class="contact__content-box__address__p">
+            <p class="contact__box__p">Adress line 1</p>
+            <p class="contact__box__p">Telephone 111-111-111</p>
+            <p class="contact__box__p">Email: sushi@sushi.com</p>
+          </div>
+        </div>
+
+        <div class="contact__content-box contact__content-box__sm">
+          <h3 class="contact__box-header">Follow us</h3>
+          <div class="contact__sm-icons">
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/facebook.png" alt="facebook icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/instagram.png" alt="instagram icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+            <div class="contact__sm-icon">
+              <a href="#" class="contact__sm-icon__link">
+                <img src="./images/icons/twitter.png" alt="twitter icon"  class="contact__sm-icon__img"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content-box">
+          <a href="contact.html" class="btn--basic btn__order-online btn__order-online--contact">Order online</a>  
+        </div>
+      </section>
+    </div>
+    <section class="contact__content-map contact__content-item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7132.699152928902!2d-122.44804944894584!3d37.757263956564806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1692022706109!5m2!1sen!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map__container"></iframe>
+    </section>
+  </section>
+  
+    <footer class="main-footer section-wrapper--large">
+      <div class="footer__content section-wrapper--medium section-wrapper--r">
+        <div class="footer__info footer__block">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__item-link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__item-link">Terms of Service</a></li>
+          </ul>
+        </div>        
+        <div class="footer__creation footer__block">Copyright © X 2023, Created by X</div>
+      </div>
+    </footer>
+  </div>
+
+  <section class="gallery-modal">
+    <button class="gallery__btn-close">
+      <span class="material-symbols-outlined gallery__btn-close__btn">
+        close
+      </span>
+    </button>
+    <div class="modal-gallery__image">
+      <img src="./images/gallery/gallery-3.jpg" alt="gallery image 3" class="modal-gallery__image-large"/>
+    </div>
+    <div class="gallery_nav">
+      <button class="gallery__btn-nav gallery__btn-prev  material-symbols-outlined">navigate_before</button>
+      <button class="gallery__btn-nav gallery__btn-next  material-symbols-outlined">navigate_next</button>      
+    </div>
+
+  </section>
+  <script type="module" src="contact.js" defer></script>
+</body>
+</html>
+
